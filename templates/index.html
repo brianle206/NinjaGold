@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Ninja Gold</title>
+		<!-- <link type="text/stylesheet" rel="stylesheet" href="style.css"> -->
+	</head>
+	<body>
+		<h1>Your gold! {{gold}}</h1>
+		<div>
+			Farm Money
+			(Git 10 - 20 golds)
+			<form action="/process_money" method="post">
+				<input type="hidden" name="building" value="farm" />
+				<input type="submit" value="Find Gold!"/>
+			</form>
+		</div>
+		<div>
+			Cave Money
+			(Git 5 - 10 golds)
+			<form action="/process_money" method="post">
+				<input type="hidden" name="building" value="cave" />
+				<input type="submit" value="Find Gold!"/>
+			</form>
+		</div>
+		<div>
+			House Monies
+			(Git 2 - 5 golds)
+			<form action="/process_money" method="post">
+				<input type="hidden" name="building" value="house" />
+				<input type="submit" value="Find Gold!"/>
+			</form>
+		</div>
+		<div>
+			Casino Monies
+			(Git 0 - 50 golds)
+			<form action="/process_money" method="post">
+				<input type="hidden" name="casino" value="LetItRide" />
+				<input type="submit" value="Find Gold!"/>
+			</form>
+		</div>
+	</body>
+</html>
