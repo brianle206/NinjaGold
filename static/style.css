@@ -1,0 +1,22 @@
+#container{
+	width: 450px;
+	margin: auto
+}
+.block{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+h1{
+	display: block;
+}
+textarea{
+	margin-top: 10px;
+	display: block;
+	padding: 10px;
+}
+input {
+	width: 80px;
+	margin: auto;
+}
